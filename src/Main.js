@@ -24,9 +24,9 @@ import Footer from './navbar/footer';
 require("@solana/wallet-adapter-react-ui/styles.css");
 const Main = () => {
 
-    const [network, setNetwork] = useState(WalletAdapterNetwork.Devnet);
+    const [network, setNetwork] = useState(WalletAdapterNetwork.Mainnet);
     const [variant, setVariant] = useState("success");
-    const [title, setTitle] = useState("Mainnet1");
+    const [title, setTitle] = useState("Mainnet");
 
 
     useEffect(() => {
