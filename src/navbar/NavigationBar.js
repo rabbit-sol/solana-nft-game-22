@@ -17,7 +17,7 @@ const Navigationbar = (props) => {
         props.setTitle("Testnet");
         props.setVariant("warning");
     } else if(val==="mainnet"){
-        props.setNetwork(WalletAdapterNetwork.Devnet);
+        props.setNetwork(WalletAdapterNetwork.Mainnet);
         props.setTitle("Mainnet");
         props.setVariant("success");
     }
